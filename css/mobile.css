@@ -1,0 +1,211 @@
+@media (max-width: 550px) and (min-width:320px) {
+    
+     /* NAV-TELEDOC */
+    
+     nav {
+         /* border: 2px solid salmon; */
+         width: 120%;
+     }
+
+     nav .nav-options ul {
+        width: 47%;
+        /* border: 2px solid brown; */
+        left: 43%;
+        font-size: 0.8rem;
+        margin-left: -5px;
+        /* border: 2px solid magenta; */        
+    }
+    nav .nav-options li{
+        padding-left: 5px;
+    }
+
+
+        /* --MAIN--BANNER */
+
+    main {
+        width: 120%;
+    }
+
+
+    .main-doctor-container .main-backgroundimg {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .main-doctor-container .main-backgroundimg .main-doctor--title {
+            position: absolute;
+            top: 40%;
+            left: 7%;
+        }
+    
+        .main-doctor-container .main-backgroundimg .main-doctor--title h1 {
+            font-size: 1.8rem;
+        }
+    
+        .main-doctor-container .main-backgroundimg .main-doctor--title p {
+            font-size: 1.3rem;
+            width: 80%;
+            position: absolute;
+            left: 10%;
+            /* border: 1px solid red; */
+            line-height: 1.8rem;
+        }
+    
+        .main-doctor-container .main-backgroundimg .main-doctor--title a {
+            font-size: 2.0rem;
+            position: absolute;
+            top: 270%;
+            left: 25%;
+            line-height: 3rem;
+            margin-top: 20px;
+        }
+        /* --Especialidades--Teledoc */
+
+        .main-especialidades-container {
+            background-position: center;
+            background-size: cover;
+        }
+    
+        .main-especialidades-container .main-especialidad--title h2 {
+            position: absolute;
+            left: -18%;
+            font-size: 1.8rem;
+            padding: 5px;
+        }
+    
+        .main-especialidades-container .main-slide {
+            width: 100%;
+            height: 550px;
+            /* border: 2px solid magenta; */
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            left: 5%;
+            position: absolute;
+              
+        }
+
+        .main-especialidades-container .main-slide .uno {
+            width: 140px;
+            height: 160px;
+            /* border: 2px solid darkorange; */
+            margin-top: 10px;    
+        }
+    
+        /* Beneficios de una consulta online -- TELEDOC */
+    
+        .main-beneficios-container {
+            height: 2100px;
+            /* border: 2px solid darkgreen; */
+            margin-top: 140px;
+        }
+    
+        .main-beneficios-container .main-beneficios--title {
+            width: 60%;
+            /* border: 2px solid green; */
+            font-size: 1.3rem;
+            left: 22%;
+            
+        }
+        
+        .main-beneficios-container .main-beneficios-slide {
+            width: 80%;
+            /* border: 2px solid magenta;  */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            left: 12%;
+            /* height: ; */
+        }
+    
+        .main-beneficios-container .main-beneficios-slide .beneficios-slide--container {
+            width: 80%;
+            left: 5%;
+            /* border: 2px solid darkslateblue; */
+        }
+    
+        .main-beneficios-container .main-beneficios-slide .beneficios-slide--container .beneficios--slide--text .main-slide-button {
+            top: 205px;
+        }
+    
+        /* TELEBLOG--SALUD */
+
+        .main-teleblog-container {
+            height: 1600px;
+            /* border: 2px solid violet; */
+        }
+
+        .main-teleblog-container .main-teleblog--title {
+            /* border: 2px solid green; */
+            width: 80%;
+            left: 13%;
+        }
+
+        .main-teleblog-container .main-teleblog--title h2 {
+            font-size: 2.5rem;
+        }
+
+        .main-teleblog-container .main-teleblog-slide {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            /* border: 2px solid red; */
+            height: 1700px;
+        }
+
+        .main-teleblog-container .main-teleblog-slide .main-slide-container {
+            width: 350px;
+            /* border: 2px solid darkviolet; */
+            left: -3%;
+            margin-bottom: 10px;
+        }
+    
+        /* --FOOTER-- */
+
+        .footer-container {
+            /* border: 2px solid darkslategrey; */
+            height: 250px;
+            width: 120%;
+            /* margin-top: 10px; */
+        }
+    
+        .footer-container .footer-container--button {
+            /* border: 2px solid magenta;   */
+            width: 65%;
+            left: 17%;
+            top: 55%;
+        }
+        .footer-container .footer-bottom {
+            left: 1%;
+            top: 75%;
+            text-align: center;
+        }
+        
+        .footer-container .footer-bottom p {
+            font-size: 1.5rem;
+            /* border: 2px solid black; */
+        }
+    
+        .footer-container .footer-list {
+            left: 18%;
+            top: 3%;  
+            width: 70%; 
+            /* border: 2px solid greenyellow; */
+            border-top: rgb(67, 119, 216);
+            line-height: none;
+            margin-bottom: 10px;
+        }
+
+        .footer-container .footer-list ul {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .footer-container .footer-list ul li {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white
+
+        }
+}

@@ -1,0 +1,174 @@
+@media (max-width: 768px) and (min-width: 600px)  {
+
+    /* NAV-TELEDOC */
+
+    nav {
+        width: 100%;
+        /* border: 2px solid darkblue; */
+    }
+
+    nav .nav-options ul {
+        width: 58%;
+        /* border: 2px solid brown; */
+        left: 25%;
+        font-size: 1.1rem;
+        /* border: 2px solid magenta; */        
+    }
+
+    /* --MAIN--BANNER */
+
+    main {
+        width: 100%;
+    }
+
+    .main-doctor-container .main-backgroundimg .main-doctor--title {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }
+
+    .main-doctor-container .main-backgroundimg .main-doctor--title h1 {
+        font-size: 2.4rem;
+    }
+
+    .main-doctor-container .main-backgroundimg .main-doctor--title p {
+        font-size: 1.3rem;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        /* border: 1px solid red; */
+        line-height: 1.8rem;
+    }
+
+    .main-doctor-container .main-backgroundimg .main-doctor--title a {
+        font-size: 2.0rem;
+        position: absolute;
+        top: 280%;
+        left: 30%;
+        line-height: 3rem;
+    }
+    /* --Especialidades--Teledoc */
+
+    .main-especialidades-container .main-especialidad--title h2 {
+        position: absolute;
+        left: 15%;
+    }
+
+    .main-especialidades-container .main-slide {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        left: 10%;
+        position: absolute;
+        top: 5%;
+    }
+
+    /* Beneficios de una consulta online -- TELEDOC */
+
+    .main-beneficios-container {
+        height: 1200px;
+    }
+
+    .main-beneficios-container .main-beneficios--title {
+        width: 60%;
+        /* border: 2px solid green; */
+        font-size: 1.8rem;
+        left: 22%;
+        
+    }
+    
+    .main-beneficios-container .main-beneficios-slide {
+        width: 80%;
+        /* border: 2px solid magenta; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        left: 12%;
+        /* height: ; */
+    }
+
+    .main-beneficios-container .main-beneficios-slide .beneficios-slide--container {
+        width: 40%;
+        left: 5%;
+    }
+
+    .main-beneficios-container .main-beneficios-slide .beneficios-slide--container .beneficios--slide--text .main-slide-button {
+        top: 205px;
+    }
+
+    /* TELEBLOG--SALUD */
+
+    .main-teleblog-container .main-teleblog--title {
+        width: 60%;
+        margin-top: 1px;
+        position:absolute;
+        top: -20%;
+        /* border: 2px solid brown;  */
+    }
+
+    .main-teleblog-container .main-teleblog-slide {
+        /* border: 2px solid magenta; */
+        height: 650px;
+        position: absolute;
+        top: -20%;
+        left: 2.5%;
+        
+    }
+    .main-teleblog-container .main-teleblog-slide .main-slide-container {
+        height: 600px;
+        width: 550px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main-teleblog-container .main-teleblog-slide .main-slide-image {
+        top: 25px;
+    }
+
+    .main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text {
+        height: 320px;
+        position: absolute;
+        top: 230px;
+    }
+
+    .main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text h3 {
+        font-size: 1.8rem;
+        line-height: 2.0rem;
+    }
+
+    .main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text p {
+        font-size: 1.5rem;
+    }
+    .main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text .main-slide-button {
+        left: 22%;
+    }
+
+    /* --FOOTER-- */
+
+    .footer-container {
+        width: 100%;
+    }
+
+    .footer-container .footer-container--button {
+        /* border: 2px solid magenta;  */
+        width: 20%;
+        left: 68%;
+        top: -5%;
+    }
+    .footer-container .footer-bottom {
+        left: 18%;
+    }
+    
+    .footer-container .footer-bottom p {
+        font-size: 1.5rem;
+    }
+
+    .footer-container .footer-list {
+        left: 10%;
+    }
+
+    .footer-container .footer-list ul li {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: whitesmoke;
+    padding: 10px;
+    color: darkcyan;
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative;
+    /* border: 2px solid magenta; */
+}
+
+.nav-brand--image img {
+    width: 100px;
+    height: 60px;
+    margin-left: 30px;
+    /* border: 2px solid brown; */
+}
+
+nav .nav-options ul {
+    width: 43%;
+    height: 50px;
+    display: flex;
+    font-size: 1.7rem;
+    /* border: 2px solid green; */
+    position: absolute;
+    left: 56%;
+    top: 20%;
+    align-items: center;
+}
+
+nav .nav-options li {
+    padding-right: 10px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+nav .nav-options li a {
+    text-decoration: none;
+    color:darkcyan;
+}
+
+nav .nav-options li a:hover {
+    color: tomato;
+}
+
+/*-------------- Main section */
+
+main {
+    width: 100%;
+}
+
+.main-doctor-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-doctor-container .main-backgroundimg{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    margin: 10px; 
+}
+
+.main-doctor-container .main-backgroundimg .main-doctor--title {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    /* line-height: 2.5rem; */
+}
+
+.main-doctor--title h1{
+    font-size: 4.4rem;
+    font-weight: bold;
+    line-height: 3.4rem;
+    color: royalblue;   
+}
+
+.main-doctor--title p {
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    margin-top: 15px;
+    color: royalblue;
+}
+
+.main-doctor--title a {
+    font-size: 3.5rem;
+    line-height: 8rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    text-decoration: none;
+    list-style: none;
+    background-color: teal;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.main-doctor--title a:hover {
+    background-color: white;
+    color: skyblue;
+}
+
+/* ----- Especialidades */
+
+.main-especialidades-container {
+    text-align: center;
+    width: 100%;
+    height: 430px;
+    background-image: url('../img/curva.jpg');
+    background-size: cover; 
+    background-position: center; 
+    /* border: 2px solid; */
+    position: relative;
+}
+
+.main-especialidades-container .main-especialidad--title h2{
+    width: 550px;
+    height: 40px;
+    margin: 0 auto;
+    /* border: 2px solid; borrar */
+    margin-top: 10px;
+    color:steelblue;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.main-especialidades-container .main-slide {
+    width: 50%;
+    height: 350px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position:absolute;
+    left: 25%;
+    margin-top: 15px;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.main-especialidades-container .main-slide .uno {
+    width: 190px;
+    height: 150px;
+    background: rgb(163, 193, 231);
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.main-especialidades-container .main-slide .uno p {
+    font-size: 1.8rem;
+    margin-top: 5px;
+    color: teal;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.main-especialidades-container .main-slide .uno img{
+    width: 100px;
+    height: 80px;
+}
+
+/* ----------- Beneficios de una consulta Online --*/
+
+.main-beneficios-container {
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    position: relative;
+    background: rgb(233,241,241);
+    background: linear-gradient(0deg, rgba(233,241,241,1) 36%, rgba(137,228,225,1) 97%, rgba(144,227,223,1) 100%);
+    border-radius: 5px;
+}
+
+.main-beneficios-container .main-beneficios--title {
+    width: 50%;
+    height: 50px;
+    /* border: 2px solid magenta; */
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: teal;
+}
+
+.main-beneficios-container .main-beneficios-slide {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    position: relative;
+    /* justify-content: space-around; */
+    /* border: 2px solid magenta;  */
+    top: 30px;
+    left: 5.7%;
+}
+
+.main-beneficios-container .main-beneficios-slide .beneficios-slide--container {
+    width: 25%;
+    height: 450px;
+    background:rgb(169, 199, 196);
+    margin-left: 13px;
+    margin-top: 40px;
+    margin-right: 16px; 
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    /* border: 2px solid green; */
+} 
+
+.main-beneficios-container .main-beneficios-slide .beneficios-slide--container img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.main-beneficios-container .main-beneficios-slide .beneficios-slide--container .beneficios--slide--text { 
+    color: rgb(60, 106, 175);
+    width: 85%;
+    height: 270px;
+    /* border: 1px solid black; */
+    background: hsla(39, 17%, 84%, 0.788);
+    margin-top: 13px;
+    position: absolute;
+    left: 7.5%;
+    border-radius: 10px;
+}
+
+.main-beneficios-container .main-beneficios-slide .beneficios-slide--container .beneficios--slide--text h3 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+    position: absolute;
+    top: 5px;
+    
+}
+
+.main-beneficios-container .main-beneficios-slide .beneficios-slide--container .beneficios--slide--text p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    position: absolute;
+    top: 80px; 
+}
+
+.main-beneficios-container .main-beneficios-slide .beneficios-slide--container .beneficios--slide--text .main-slide-button {
+    width: 50%;
+    height: 35px;
+    background: crimson;
+    position: absolute;
+    top: 180px;
+    left: 25%;
+    margin-top: 15px;  
+    border-radius: 10px;  
+    align-items: center;
+    padding-top: 5px;
+}
+
+.main-beneficios-container .main-beneficios-slide .beneficios-slide--container .beneficios--slide--text .main-slide-button a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+.main-beneficios-container .main-beneficios-slide .beneficios-slide--container .beneficios--slide--text .main-slide-button a:hover {
+    color: rgb(71, 255, 230);
+}
+/*------TELEBLOG*/
+
+.main-teleblog-container {
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid rgb(218, 27, 27); */
+    position: relative;
+    background: rgb(233,241,241);
+    background: linear-gradient(180deg, rgba(233,241,241,1) 36%, rgba(137,228,225,1) 97%, rgba(144,227,223,1) 100%);
+}
+
+.main-teleblog-container .main-teleblog--title {
+    width: 30%; 
+    height: 55px;
+    /* border: 2px solid fuchsia;  */
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 30px;
+    position: absolute;
+    left: 5.5%;
+    top: -28px;
+    text-align: center;
+}
+
+.main-teleblog-container .main-teleblog--title h2 {
+    font-size: 4.5rem;
+    color: rgb(41, 104, 221);
+}
+
+.main-teleblog-container .main-teleblog-slide {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* position: relative; */
+    /* border: 2px solid rgb(255, 0, 0); */
+    margin-top: 100px;
+    width: 95%;
+    height: 550px;
+    /* padding-top: 25px; */
+    position: absolute;
+    top: -30px;
+    left: 5%;
+}
+
+.main-teleblog-container .main-teleblog-slide .main-slide-container {
+    width: 30%;
+    height: 480px;
+    /* border: 2px solid rgb(24, 21, 23);  */
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    left: 0.1%;
+    right: 3%;
+    border-radius: 10px;
+    background: hsla(218, 41%, 69%, 0.699);
+    /* padding-top: 15px; */
+    /* text-align: center; */
+}
+
+.main-teleblog-container .main-teleblog-slide .main-slide-image {
+    /* border: 2px solid rgb(128, 34, 204);  */
+    width: 85%;
+    height: 180px;
+    border-radius: 10px;
+    position: absolute;
+    left: 7.5%;
+    top: 5px;   
+}
+
+.main-teleblog-container .main-teleblog-slide .main-slide-image img {
+    width: 100%;
+    height: 180px;
+    position: absolute;   
+    border-radius: 10px;
+}
+
+.main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text {
+    /* border: 2px solid brown; */
+    width: 85%;
+    margin-top: 5px;   
+    height: 280px;
+    position: absolute;
+    left: 7.5%;
+    top: 183px;
+    border-radius: 10px;
+    text-align: center;
+    background: hsla(0, 11%, 80%, 0.685);
+}
+
+.main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: darkblue;
+    line-height: 2.5rem;
+    margin-top: 15px;
+}
+
+.main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text p {
+    color: black;
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    margin-top: 15px;
+}
+
+.main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text .main-slide-button {
+    background: cornflowerblue;
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-radius: 10px;
+} 
+
+.main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text .main-slide-button a {
+    color: darkkhaki;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.main-teleblog-container .main-teleblog-slide .main-slide-container .main-slide-text .main-slide-button a:hover {
+    color: rgb(128, 20, 150);
+}
+
+/* --FOOTER-- */
+
+.footer-container {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid #008000;  */
+    background: rgb(233,241,241);
+    background: linear-gradient(0deg, rgba(233,241,241,1) 36%, rgba(137,228,225,1) 97%, rgba(144,227,223,1) 100%);
+    display: flex;
+    position: relative;
+}
+
+.footer-container .footer-container--button {
+    width: 15%;
+    display: flex;
+    /* background: red; */
+    /* width: 100%; */
+    position: absolute;
+    left: 80%;
+    top: 13%;
+    /* border: 2px solid fuchsia; */
+}
+
+.footer-container .footer-container--button a img{
+    width: 50px;
+    height: 40px;
+}
+
+.footer-container .footer-bottom {
+    position: absolute;
+    top: 60%;
+    left: 16%;
+    /* border: 2px solid magenta; */
+}
+
+.footer-container .footer-bottom p {
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.699)
+}
+
+.footer-container .footer-list {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    /* border: 2px solid mediumseagreen;   */
+}
+
+.footer-container .footer-list ul {
+    /* text-decoration: none; */
+    list-style: none;
+    line-height: 2.8rem;
+    display: flex;
+    
+}
+
+.footer-container .footer-list ul li {
+    font-size: 2.3rem;
+}
+
+.footer-container .footer-list ul li a{
+    text-decoration: none;
+    color: rgb(41, 104, 221);
+    margin-right: 40px;
+}
+
+
+.footer-container .footer-list ul li a:hover {
+    color: rgb(240, 145, 123);
+}
